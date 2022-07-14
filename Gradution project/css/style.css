@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #040005, #d3aae9);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 100px;
+    padding-left: 0px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+#banner {
+    background-image: linear-gradient(to right, #040005, #d3aae9);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.Gifted-people {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img-fluid {
+    width: 80%;
+    margin-left: 150%;
+}
+
+.buttom-img {
+    width: 100%;
+}
+
+#services {
+    padding: 80px 0;
+}
+
+.services-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #d3aae9;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #d3aae9;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #040005, #d3aae9);
+}
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+
+#about-us ul li {
+    margin-left: 20px;
+}
+
+#social-media {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a :hover img {
+    transform: translateY(-10px);
+}
+
+#footer {
+    background-image: linear-gradient(to right, #040005, #d3aae9);
+    color: #fff;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #040005, #d3aae9);
+}
+
+
+/* acc */
+
+.acc-link {
+    position: fixed;
+    background: #e14825;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    right: 0;
+    top: 50%;
+    justify-content: center;
+    color: #fff;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    z-index: 100
+}
+
+.acc-link a {
+    height: auto!important;
+    margin-top: 0!important;
+    color: #fff;
+}
+
+.acc-icons {
+    right: 0;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    display: flex;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+    box-shadow: 0 0 3px #000;
+    flex-wrap: wrap;
+    padding: 5px;
+    display: none;
+    padding-left: 0;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.close {
+    visibility: visible;
+}
+
+.acc-icons a {
+    margin-left: 5px;
+    float: left;
+    background: #ddd;
+    padding: 10%;
+    width: 46%;
+    height: 50px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    cursor: pointer
+}
+
+.acc-icons a:nth-child(3) {
+    margin-bottom: 0
+}
+
+.acc-icons a:nth-child(4) {
+    margin-bottom: 0
+}
+
+.acc-icons i {
+    color: #000;
+    display: block
+}
+
+.acc-link-style {
+    background-color: black;
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+#banner {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+#banner p.Gifted-people {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
